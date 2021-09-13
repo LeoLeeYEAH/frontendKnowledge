@@ -1,5 +1,5 @@
 Git相关网上有非常多总结，在此放一个GitHub上的总结：
-https://github.com/huyaocode/webKnowledge/tree/master/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%BA%93/Git
+<br>https://github.com/huyaocode/webKnowledge/tree/master/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%BA%93/Git
 
 ### 1. commit后重新回到上一个状态
 + git reset HEAD --soft &nbsp;&nbsp; 只回撤commit信息，如果想要提交，再次commit即可（推荐）
