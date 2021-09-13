@@ -44,7 +44,7 @@ setTimeout()是一个异步处理函数，它会等待所有的主线程任务�
 | 正则表达式 | RegExp |
 
 + instanceof运算符可以用来判断某个构造函数的prototype属性是否存在于另外一个要检测对象的原型链上，以下是一些简单的例子：
-```
+```javascript
 // 定义构造函数
 function C(){} 
 function D(){} 
