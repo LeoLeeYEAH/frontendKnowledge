@@ -22,17 +22,17 @@ setTimeout()是一个异步处理函数，它会等待所有的主线程任务�
 ### 5. typeof、Object.prototype.toString、instanceof
 + typeof方法返回一个字符串，来表示数据的类型，各数据类型所对应的typeof返回值如下：
 
-| 数据类型 | typeof返回值 |
-| :---: | :---: |
-| Undefined | "undefined" |
-| Null | "object" |
-| 布尔值 | "boolean" |
-| 数值 | "number" |
-| 字符串 | "string" |
-| Symbol | "symbol" |
+| 数据类型 | typeof返回值 | 基本or引用 |
+| :---: | :---: | :---: | 
+| Undefined | "undefined" | 基本数据类型 |
+| Null | "object" | 基本数据类型 |
+| 布尔值 | "boolean" | 基本数据类型 |
+| 数值 | "number" | 基本数据类型 |
+| 字符串 | "string" | 基本数据类型 |
+| Symbol | "symbol" | 基本数据类型 |
 | 宿主对象 | Implementation-dependent |
-| 函数 | "function" |
-| 任何其他对象 | "object" |
+| 函数 | "function" | 引用数据类型 |
+| 任何其他对象 | "object" | 引用数据类型 |
 
 + 但typeof往往不足以判断一些细分类型，例如数组、正则、日期、对象的typeof返回值都是object，此时需要用到另一个判断类型的方法Object.prototype.toString，各类型对应的返回值如下：
 
